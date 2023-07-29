@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(lldb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/a.out",
+      "args": [],
+      "cwd": "${workspaceRoot}",
+      "preLaunchTask": "chat",
+      "MIMode": "lldb"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/adam/code/cpp-chat",
+      "program": "/Users/adam/code/cpp-chat/build/Debug/outDebug"
+    }
+  ]
+}
