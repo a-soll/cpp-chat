@@ -9,6 +9,13 @@
         "${workspaceRoot}"
       ],
       "cStandard": "${default}"
+    },
+    {
+      "name": "linux",
+      "cppStandard": "c++20",
+      "includePath": [
+        "${workspaceRoot}"
+      ]
     }
   ],
   "version": 4
